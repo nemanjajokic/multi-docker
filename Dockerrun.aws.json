@@ -4,24 +4,28 @@
         {
             "name": "client",
             "image": "nemanjajokic/multi-client-10-14",
+            "memory": 128,
             "hostname": "client",
             "essential": false
         },
         {
             "name": "server",
             "image": "nemanjajokic/multi-server-10-14",
+            "memory": 128,
             "hostname": "api",
             "essential": false
         },
         {
             "name": "worker",
             "image": "nemanjajokic/multi-worker-10-14",
+            "memory": 128,
             "hostname": "worker",
             "essential": false
         },
         {
             "name": "nginx",
             "image": "nemanjajokic/multi-nginx-10-14",
+            "memory": 128,
             "hostname": "nginx",
             "essential": true,
             "portMappings": [

@@ -3,25 +3,25 @@
     "containerDefinitions": [
         {
             "name": "client",
-            "image": "nemanjajokic/multi-client",
+            "image": "nemanjajokic/multi-client-10-14",
             "hostname": "client",
             "essential": false
         },
         {
             "name": "server",
-            "image": "nemanjajokic/multi-server",
+            "image": "nemanjajokic/multi-server-10-14",
             "hostname": "api",
             "essential": false
         },
         {
             "name": "worker",
-            "image": "nemanjajokic/multi-worker",
+            "image": "nemanjajokic/multi-worker-10-14",
             "hostname": "worker",
             "essential": false
         },
         {
             "name": "nginx",
-            "image": "nemanjajokic/multi-nginx",
+            "image": "nemanjajokic/multi-nginx-10-14",
             "hostname": "nginx",
             "essential": true,
             "portMappings": [
